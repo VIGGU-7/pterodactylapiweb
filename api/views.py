@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import requests
-baseurl="https://panel.flashnodes.in"
+baseurl=""
 class User:
     def __init__(self,serverid,key):
         self.serverid=serverid
